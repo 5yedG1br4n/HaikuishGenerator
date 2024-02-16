@@ -1,0 +1,64 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #eff5f4;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fdebd0; /* Playful background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #f8e8c1; /* Lighter background color on hover */
+}
+
+#haikuOutput {
+  font-style: italic;
+  margin-top: 20px;
+  color: #555555;
+}
+
+/* Theme-specific button styles */
+
+#carButton {
+  background-color: #f5a623;
+  color: #ffffff;
+}
+
+#travelButton {
+  background-color: #7d8b8c;
+  color: #ffffff;
+}
+
+#programmingButton {
+  background-color: #6aade4;
+  color: #ffffff;
+}
+
+#shoppingButton {
+  background-color: #b4ccb9;
+  color: #ffffff;
+}
+
+#meditateButton {
+  background-color: #dcc5aa;
+  color: #ffffff;
+}
